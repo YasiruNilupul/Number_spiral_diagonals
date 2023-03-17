@@ -1,11 +1,16 @@
 n=1
+sum=1
+
 j=1
-sum=0
-while n<=4:
- for i in range(2*n+2):
-   sum=i+sum-
+k=0
+while n<501:
+ for i in range(1,5):
+    
+    sum=sum+j*2*i+(2*k+1)**2
+ i=1
+ j+=1
  n+=1
- for j in range
+ k+=1
 print(sum)
 
 
